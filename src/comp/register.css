@@ -1,0 +1,95 @@
+body {
+    margin: 100px;
+    text-align: center;
+    align-self: center;
+    background-color: black;
+}
+
+input[type=text],
+[type=password],
+[type=number] {
+    width: 20%;
+    margin: 8px 0;
+    padding: 7px 10px;
+    display: inline-block;
+    background-color: rgb(34, 34, 34);
+    border-radius: 7cm;
+    border: 1px solid rgb(117, 116, 116);
+    box-sizing: border-box;
+}
+
+input {
+    /* custom */
+    caret-color: rgb(255, 255, 255);
+    color: azure;
+}
+
+.hey {
+    align-self: center;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 2cm;
+}
+#uue{
+    margin-right: 1cm;
+}
+#yes{
+    margin-left: 2cm;
+}
+
+button {
+    background-color: #c55638;
+    width: 20%;
+    padding: 6px 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    border: none;
+    color: #ffffff;
+    margin-left: 80px;
+    border-radius: 7cm;
+}
+
+#r1,#r2,#r3,#r4{
+    width: 7cm;
+}
+
+.outer {
+    border: #767676;
+    background: rgb(5, 5, 5);
+    position: absolute;
+    border-radius: 1cm;
+    border-style: groove;
+    align-self: center;
+    top: 10cm;
+    bottom: 15cm;
+    left: 10cm;
+    right: 6cm;
+    margin: auto;
+    width: 35cm;
+    height: 14cm;
+    text-align: center;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#un {
+    margin-left: 0.5cm;
+}
+
+#fn,
+#ln,
+#un,
+#pwd,
+#em,
+#mn,
+#fm,
+#cy {
+    font-family: 'Lato', sans-serif;
+    color: gray;
+}
+
+#em {
+    margin-left: 30px;
+}
